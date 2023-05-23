@@ -1,0 +1,54 @@
+ @media only screen (min-width: 425px) {
+            nav ul li a {
+                text-align: center;
+            }
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: monospace;
+            font-size: 2rem;
+            margin: 20px;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline;
+              padding-left: 20px; 
+        }
+        #featured img {
+            height: 400px;
+            width:auto;
+        }
+      @media screen and (min-width: 768px) body {
+            font-size:20px
+        }
+        p {
+            color: white;
+            font-size: 30px;
+        }
+        body {
+            background-color: black;
+        }
+        footer a {
+            text-decoration: none;
+            color: grey;
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 20px;
+            color: whitesmoke;
+        }
+        h3:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        * {
+            padding: 0;
+        }
+        .Wiki a{
+            text-decoration: none;
+        }
+        .Wiki:hover {
+            color: white;
+        }
