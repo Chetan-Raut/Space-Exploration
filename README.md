@@ -1,2 +1,5 @@
-# Planets_In_Our_Solar_System
-This is a Simple HTML5, CSS3 Website for information about planets in our Solar system including the dawrf planet Pluto 😇.
+# Space Exploration
+<p>
+  This is Website for information about planets, galaxies and many other things related to Space.
+</p>
+Site link: <a href="https://chetan-raut.github.io/Space-Exploration" target="_blank"> Click here </a> 
