@@ -13,7 +13,5 @@
 
 <h3> Show Support </h3>
 
-<p>You can support me using <b>Buymeacoffee</b>
-</p>
-
-<a href=""> </a>
+<p>You can support me using <a href="https://Buymeacoffee/chetanraut/"><b>Buymeacoffee</b>
+</a> </p>
