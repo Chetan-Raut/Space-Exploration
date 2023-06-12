@@ -1,4 +1,4 @@
-# Space Exploration Website
+# Space-Exploration
 
 Welcome to the Space Exploration website, where you can explore the wonders of space and keep up-to-date with the latest news and discoveries. This repository contains the source code for our static website.
 
@@ -24,8 +24,8 @@ To get started with the Space Exploration website, follow these steps:
 
 The Space Exploration website is built using the following technologies:
 
-- HTML and CSS for the front-end
-- JavaScript for interactive features
+- HTML5 and CSS3 for the front-end
+- JavaScript and jQuery for interactive features
 - Bootstrap for responsive design
 
 ## Contributing
@@ -40,7 +40,7 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 ## Contact
 
-If you have any questions or issues with the Space Exploration website, please contact us using the contact form on our website.
+If you have any questions or issues with the Space Exploration website, please contact us using the contact form on our website or<a href="mailto:chetan.raut2009@example.com?subject=Subject%20line&body=Email%20body">Send Email</a>
 
 Thank you for exploring space with us!
 
