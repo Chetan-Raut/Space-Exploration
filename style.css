@@ -1,54 +1,134 @@
- @media only screen (min-width: 425px) {
-            nav ul li a {
-                text-align: center;
-            }
+        /*Body*/  
+        body {
+            font-family: arial,monospace,sans-serif,serif;
+            margin: 0;
+            padding: 0;
+            background-color: f0f0f0;
         }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            font-family: monospace;
-            font-size: 2rem;
-            margin: 20px;
+ 
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
             justify-content: center;
         }
+
         nav ul li {
-            list-style: none;
-            display: inline;
-              padding-left: 20px; 
+            margin: 0 10px;
         }
-        #featured img {
-            height: 400px;
-            width:auto;
-        }
-      @media screen and (min-width: 768px) body {
-            font-size:20px
-        }
-        p {
+
+        nav ul li a {
             color: white;
-            font-size: 30px;
-        }
-        body {
-            background-color: black;
-        }
-        footer a {
             text-decoration: none;
-            color: grey;
-            font-size: 30px;
         }
-        h3 {
-            font-size: 20px;
-            color: whitesmoke;
+
+        /* Main content styles */
+        main {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+           background-color: #fff;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        h3:hover {
-            color: blue;
-            text-decoration: underline;
+
+        main h2 {
+            font-size: 24px;
+            margin-top: 0;
         }
-        * {
-            padding: 0;
+
+        main p {
+            line-height: 1.6;
         }
+
+        main img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        /*Removing useless text-decoration ans styling a bit*/
+        
+        #featured a{
+            text-decoration: none;
+        }
+
         .Wiki a{
             text-decoration: none;
         }
-        .Wiki:hover {
-            color: white;
+        
+      #featured p::first-letter {
+            font-size: 200%;
+        }
+
+       h3 {
+           font-family: Monospace,Arial,Verdana,Serif,Sans-serif;
+       }
+
+
+        /* Media Queries */
+
+        /* Responsive layout for mobile devices */
+        @media only screen and (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            nav ul li {
+                margin: 0 5px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            main h2 {
+                font-size: 20px;
+            }
+        }
+
+        /* Responsive layout for tablets */
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            main {
+                padding: 30px;
+            }
+        }
+
+        /* Responsive layout for larger screens */
+        @media only screen and (min-width: 1025px) {
+            header h1 {
+                font-size: 48px;
+            }
+
+            nav ul li {
+                margin: 0 20px;
+            }
+
+            main {
+                padding: 50px;
+            }
+
+            main h2 {
+                font-size: 36px;
+            }
         }

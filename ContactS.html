@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Space Exploration - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="static/pxbay-space-logo.png" type="image/x-icon">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif, serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: black;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 8px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+        }
+
+        /* Main Content */
+        main {
+            padding-bottom: 10vh;
+        }
+
+        /* Contact Form */
+        #Space {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #Space label {
+            display: block;
+            margin-top: 10px;
+            color: black;
+            font-family: Arial,Sans-serif,Roboto mono;
+            font-weight: 500;
+        }
+
+        #Space input[type="text"],
+        #Space input[type="email"],
+        #Space textarea {
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: #333;
+        }
+
+        #Space textarea {
+            height: 150px;
+        }
+
+        #submit {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div>
+        <nav>
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                <li><a href="Featured.html">Featured</a></li>
+                <li><a href="Blogs.html">Blogs</a></li>
+                <li><a href="NewsS.html">News</a></li>
+                <li><a href="ContactS.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+ 
+        <h1>Contact Us</h1>
+    
+    <main>
+       <form action="https://formspree.io/f/mrgvwqnl"
+  method="POST">
+            <div id="Space">
+
+  <label for="Name">Name</label> <br>
+     <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required> 
+     <br>
+
+  <label for="Email">Email</label>
+     <br>  
+     <input type="email" name="Email" id="Email" placeholder="Enter Email" required>       
+     <br>
+
+<label for="Comment">Enter Comment</label>
+     <br>
+   <textarea rows="10" cols="50" name="Comment" placeholder="Enter a Comment, Please be polite and nice." required></textarea> <br>
+
+  <button id="submit" type="submit">Submit</button>
+         </div>
+</form>
+</main> 
+
+<!-- Footer -->
+<footer class="gradient-clr">
+
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2023 Space Exploration. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

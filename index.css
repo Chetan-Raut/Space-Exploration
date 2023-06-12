@@ -1,0 +1,47 @@
+       /*Body styles*/  
+        body {
+            font-family: arial,monospace,sans-serif,serif;
+            margin: 0;
+            padding: 0;
+            background-color: f0f0f0;
+        }
+         /* Navigation styles */
+        nav {
+            background-color: #14213D;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+            font-family: Arial,Sans-Serif,Georgia,Verdana;
+            font-weight: 550;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    /*Navbar li a hovering effect*/
+       .navbar-nav .nav-link:hover {
+        color: white;
+       background-color: black;
+        }
+
+     /*Changing the Logo name*/
+        .navbar-brand {
+            font-family: Georgia;
+            font-weight: 500;
+        }
+        
+      .gradient-clr {
+           margin-top: 200px;
+        }
