@@ -43,9 +43,3 @@ We welcome contributions from the community! If you'd like to contribute to the 
 If you have any questions or issues with the Space Exploration website, please contact us using the contact form on our website or <a href="mailto:chetan.raut2009@gmail.com?subject=Feedback for Space Exploration">Send email</a>
 
 Thank you for exploring space with us!
-
-## Show Support </h3>
-
-<p>You can support me using 🥰</p>
-
-[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/chetanraut)
