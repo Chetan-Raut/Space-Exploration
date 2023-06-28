@@ -2,8 +2,7 @@
         body {
             font-family: arial,monospace,sans-serif,serif;
             margin: 0;
-            padding: 0;
-            background-color: f0f0f0;
+            padding: 0;   
         }
          /* Navigation styles */
         nav {
@@ -22,7 +21,7 @@
         
         nav ul li {
             margin: 0 15px;
-            font-family: Arial,Sans-Serif,Georgia,Verdana;
+            font-family: Arial,Sans-Serif,Georgia;
             font-weight: 550;
         }
 
@@ -38,14 +37,72 @@
 
      /*Changing the Logo name*/
         .navbar-brand {
-            font-family: Georgia;
+            font-family: Monospace;
             font-weight: 500;
         }
         
       .gradient-clr {
-           margin-top: 200px;
+           margin-top: 2rem;
         }
 
-       h5 {
-        font-family: serif,monospace;
-        }
+   /*Blogs links styling*/
+     .Blogs ul li a{
+    text-decoration: none;
+    color: #2b82ff;
+    line-height: 1.7;
+     }
+
+   .Blogs h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: solid black;
+     }
+   
+    #myName {
+      text-align: center;
+      font-family: Monospace;
+      letter-spacing: 1;
+      font-weight: 650;
+     }
+
+    #myName a {
+      text-decoration: none;
+      color:blue;
+     }
+
+   /*Newsletter*/
+
+    .card {
+       max-width: 500px;
+       width: 75%;
+       margin: 5rem auto 0;
+       display: flex;
+       justify-content: center;
+       }
+
+     .card-body input {
+      max-width: 100%;
+      padding: 0.3rem;
+      }
+
+     .card-body {
+       background-color: #f8f9fa;
+      }
+
+     .card-title {
+       color: #333; 
+      }
+
+     .card-text {
+       color: black;
+      }
+
+     .form-control {
+      background-color: #fff;
+      color: #333; 
+      border-color: #6c757d;  
+      }
+
+      .card-body form div {
+        padding-bottom: 1.5rem;
+      }
