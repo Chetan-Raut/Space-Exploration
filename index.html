@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Space Exploration</title>
-    <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- encoding -->
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <!-- stylesheet -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">    
+    <meta name="description" content="">
+<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <link rel="stylesheet" type="text/css" 
    href="index.css">
    <link rel="stylesheet" type="text/css"    
-   href="footer.css"> 
+   href="footer.css">    
    <!-- Bootstrap CDN -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
    <!-- fav icon -->
     <link rel="shortcut icon" href="static/pxbay-space-logo.png" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
     
     <style>
-        .card {
-            margin-top: 5rem;
-        }
+    h5 {
+        font-family: serif,monospace;
+      }
+
     </style>
 </head>
+
 <body>
-    
-    
-    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
   <div class="container-fluid">
@@ -48,39 +51,80 @@
           <a class="nav-link" href="NewsS.html">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ContactS.html">Contact Us</a>
+          <a class="nav-link" href="ContactS.html">Contact</a>
         </li>
       </ul>
     </div>
   </div>
-</nav>
-
+</nav>   
   
+  <hr> 
   
-      <div class="card text-center mb-3">
+  <hr> 
+  
+  <hr> 
+  
+  <hr>
+  
+  <div class="Blogs"> 
+      
+      <h3>Trending Blogs</h3>
+  
+  <ul>
+      <li> <a href="extras/MarsRover.html">The Perseverance Rover: Unraveling the Mysteries of Mars</a></li>
+      <li> <a href="extras/Supernova.html">Introduction To Supernova Explosions</a></li>
+      <li> <a href="extras/Propulsion.html">Spacecraft Propulsion Systems: From Chemical to Ion Thrusters</a></li> 
+      <li> <a href="extras/JamesWebb.html">The James Webb Space Telescope: A New Era of Deep Space Observation</a></li>
+      <li> <a href="extras/DarkMatter.html">The Search for Dark Matter: Unveiling the Invisible Universe</a></li>
+      <li> <a href="extras/Hubble.html">The Hubble Space Telescope: Unveiling the Wonders of the Universe</a></li> 
+      <li> <a href="extras/SpaceDebris.html">Space Debris: The Growing Threat to Space Exploration</a></li>
+      <li> <a href="extras/ISS.html">The International Space Station: Living and Working in Space</a></li>
+      <li> <a href="extras/Exoplanets.html">Exoplanets: Searching for Habitable Worlds Beyond Our Solar System</a></li>
+      <li> <a href="extras/AI.html">Artificial intelligence and Future</a></li>
+      
+  </ul>
+  
+  </div>
+    
+ <hr>
+  
+  <!-- Weekly newsletter -->
+  
+      <div class="card text-center mb-3 bg-secondary">
   <div class="card-body">
-    <h5 class="card-title">Explore Everything related to Space</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title text-dark"> Subscribe To Our Weekly Newsletter</h5>
+    
+  <form action="https://formspree.io/f/mqkorpnb" method="POST">
+      
+   <div>
+       <label for="Name">Name<span style="color: red;"> *</span></label> <br>
+     <input type="text" name="Name" id="Name" placeholder="Enter your Name" required> 
+     </div> 
+    
+   <div>
+       <label for="Email">Email ID<span style="color: red;"> *</span></label> <br>
+     <input type="email" name="Email" id="Email" placeholder="Enter your Email ID" required>
+     </div> 
+     
+    <div>
+<button type="submit" class="btn btn-outline-light bg-dark text-white">Subscribe</button>
+   </div>
+   
+  </form>
   </div>
 </div>
         
-             
-             
-             
-             
-             
-             
-             
-             
-             
+            <hr>
+            
+            <div id="myName">Made with &hearts; By <a href="https://github.com/Chetan-Raut">Chetan Raut</a></div>
+            <hr>
                          
             <!-- Footer -->
             <footer class="gradient-clr">
 
     <div class="footer-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms and Conditions</a>
+        <a href="extras/PrivacySE.html">Privacy Policy</a>
+        <a href="extras/TermsSE.html">Terms and Conditions</a>
     </div>
 
     <div class="copyright">
