@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Exploration - Blogs</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
     <!-- fav icon -->
     <link rel="shortcut icon" href="static/pxbay-space-logo.png" type="image/x-icon">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<script src="Scripts/script.js"></script>
+   
     <style>
+        /* Responsive Styling */
+        @media screen and (max-width: 768px) {
+            .blog-item {
+                padding: 10px;
+            }
+            
+            .pagination-lg {
+                margin-bottom: 3rem;
+            }
+            
+            .mb-65 img {
+                 width: 65vw;
+            }
+        }
+        
         /* General Styling */
         body {
             font-family: Arial, sans-serif, serif;
@@ -31,6 +48,7 @@
         nav {
             background-color: black;
             text-align: center;
+            width: 100%;
         }
 
         nav ul {
@@ -52,7 +70,7 @@
 
         /* Main Content */
         main {
-            padding-bottom: 300px;
+            padding-bottom: 1rem;
         }
 
         /* Blogs Section */
@@ -72,66 +90,244 @@
             color: #555;
             margin-bottom: 20px;
         }
-
-        /* Responsive Styling */
-        @media screen and (max-width: 768px) {
-            .blog-item {
-                padding: 10px;
-            }
-            
-            .pagination-lg {
-                margin-bottom: 5rem;
-            }
+        
+        /*footer*/
+          .gradient-clr {
+           margin-top: 10rem;
         }
+        
+     main img{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 30vh;
+         margin-left: 10%;
+     }
+        
+     main a {
+         text-decoration: none;
+     }   
     </style>
 </head>
 <body>
     <nav>
         <ul>
-             <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="Featured.html">Featured</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="NewsS.html">News</a></li>
+            <li><a href="Blogs.html">Blogs</a></li>
+            <li><a href="News/NewsS.html">News</a></li>
             <li><a href="ContactS.html">Contact</a></li>
         </ul>
     </nav>
 
     <main>
         <div class="blog-item">
-            <h3>A Brief Overview of the Sun</h3>
-            <img src="" alt="Sun">
-            <p>The sun is a star located at the center of the solar system. It is a massive ball of hot gas that emits light and heat, which sustain life on Earth. The sun's diameter is about 109 times that of Earth, and it has a surface temperature of about 5,500 degrees Celsius. </p>
+             <h3>A Brief Overview of the Sun</h3>
+      <img src="https://i.imgur.com/wWwAtoZ.jpeg"alt="Sun">          
+            <p>The sun is a star located at the center of the solar system. It is a massive ball of hot gas that emits light and heat, which sustain life on Earth. The sun's diameter is about 109 to that of Earth....
+         <a href="extras/Sun.html">Read more</a>   
+            </p>
         </div>
 
         <div class="blog-item">
-            <h3>Blog Title 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor ultrices nibh vel vulputate. Nulla facilisi.</p>
+            <h3>Introduction to Supernova</h3>
+            <img src="https://i.imgur.com/6dHA7BH.jpg" alt="Supernova">
+            <p>A supernova is a powerful and luminous explosion of a star. A supernova occurs during the last evolutionary stages of a massive star or when a white dwarf is triggered into runaway nuclear fusion....<a href="extras/Supernova.html">Read more</a>
+            </p>
+           </div> 
+           
+            <div class="blog-item">
+            <h3>Dwarf Planet</h3>
+            <img src="https://i.imgur.com/8Uje1aW.jpeg" alt="Pluto">
+            <p>A Dwarf planet is a small planetary-mass object that is in direct orbit of the Sun,smaller than any of the eight classical planets but still a world in its own right....<a href="extras/Dwarf.html">Read more</a>
+            </p>
+            </div
+            >
+             <div class="blog-item">
+            <h3>Meteoroid</h3>
+            <img src="extras/IMG/Asteroid.jpg" alt="Meteoroid">
+            <p>A meteoroid (Or Shooting star) is a small rocky or metallic body in outer space. Meteoroids are distinguished as objects significantly smaller than asteroids,....<a href="extras/ShootStar.html">Read more</a>
+            </p>
+            </div>
+            
+            <div class="blog-item">
+            <h3>Asteroid</h3>
+            <img src="extras/IMG/Ryugu-colored.jpg" alt="Asteroid">
+            <p>An asteroid is a minor planet—an object that is neither a planet nor a comet—that orbits within the inner Solar System.They are rocky, metallic or icy bodies with no atmosphere....<a href="extras/Asteroid.html">Read more</a>
+            </p>                   
         </div>
 
-        <!-- Add more blog items as needed -->
+<!-- Page 2 -->
+
+<div class="blog-item">
+            <h3>The Perseverance Rover: Unraveling the Mysteries of Mars</h3>
+            <img src="extras/IMG/Pxlbay-NASA-Rover.png" alt="Perseverance Rover">
+            <p>NASA's Perseverance rover is a robotic spacecraft that was launched on July 30, 2020, with the goal of exploring the Martian surface and searching for signs of past or present microbial life.<br> The rover landed successfully in Jezero Crater on February 18, 2021, and has been conducting scientific experiments and collecting data....<a href="extras/MarsRover.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>Space Debris: The Growing Threat to Space Exploration</h3>
+            <img src="https://i.imgur.com/Nq61gFH.gif" alt="Space Debris">
+            <p>An asteroid is a minor planet—an object that is neither a planet nor a comet—that orbits within the inner Solar System.They are rocky, metallic or icy bodies with no atmosphere....<a href="extras/SpaceDebris.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The International Space Station: Living and Working in Space</h3>
+            <img src="https://i.imgur.com/8rpOCrw.jpeg" alt="International Space Station">
+            <p>The International Space Station (ISS) is a large, orbiting spacecraft that serves as a research laboratory and a platform for space exploration and international cooperation. It is one of the most complex and ambitious engineering projects ever undertaken, involving....<a href="extras/ISS.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>Exoplanets: Searching for Habitable Worlds Beyond Our Solar System</h3>
+            <img src="https://i.imgur.com/dea3Tcn.jpeg" alt="Exoplanets">
+            <p><strong>Exoplanets</strong> are planets that orbit stars outside our solar system. They offer insights into how planets form and the potential for life beyond Earth....<a href="extras/Exoplanets.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The James Webb Space Telescope: A New Era of Deep Space Observation</h3>
+            <img src="https://i.imgur.com/qLZ6t6J.jpg" alt="James-Webb-Telescope">
+            <p>The JWST is a large, complex spacecraft that is designed to operate in a special orbit around the Earth, known as a Lagrange point. It is equipped with a variety of cutting-edge instruments and technologies that will allow it to observe the universe....<a href="extras/JamesWebb.html">Read more</a>
+            </p>                   
+        </div>
+
+<!-- Page 3 -->
+
+<div class="blog-item mb-65">
+            <h3>The Hubble Space Telescope: Unveiling the Wonders of the Universe</h3>
+            <img src="https://i.imgur.com/nsHgMBn.jpg" alt="Hubble Space Telescope">
+            <p>The Hubble Space Telescope is a large, space-based telescope that has captured some of the most stunning images of the universe ever seen. Since its launch....<a href="extras/Hubble.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Great Red Spot: Jupiter's Iconic Storm</h3>
+            <img src="https://i.imgur.com/jGB5W8Y.jpg" alt="The Great red spot">
+            <p>The Great Red Spot is a massive storm on Jupiter, larger than Earth, characterized by its swirling, reddish-brown appearance and winds up to 400 mph. It is shrinking and....<a href="extras/GreatRedSpot.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Surprising Discoveries of the Voyager Spacecraft</h3>
+            <img src="https://i.imgur.com/zT4EP64.jpeg" alt="Voyager Spacecraft">
+            <p>In 1977, NASA launched two spacecraft called Voyager 1 and Voyager 2 on a mission to explore the outer solar system. These twin spacecraft have captured our imagination ever since, as they continue to send back data and images from billions of miles....<a href="extras/Voyager.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Role of Space Agencies: ISRO, NASA, ESA and Beyond</h3>
+            <img src="extras/IMG/03-World-Space-Agiencies-homepage-930x698.jpg" alt="Space Agencies">
+            <p>Uncover the vital roles played by renowned space agencies such as ISRO, NASA, ESA, and others in shaping our understanding of the universe. Explore their significant contributions to scientific breakthroughs, technological advancements....<a href="extras/SpaceAgency.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item">
+            <h3>Lunar Prospects: Exploring the Potential of Moon Colonization</h3>
+            <img src="https://i.imgur.com/LCjVu3G.jpg" alt="Lunar Prospect">
+            <p>Lunar prospects is a topic that explores the possibility of establishing a human presence on the moon and the potential benefits and challenges of such a mission. Colonizing the moon has been a topic of....<a href="extras/LunarMissions.html">Read more</a>
+            </p>                   
+        </div>
+
+<!-- Page 4 -->
+<div class="blog-item mb-65">
+            <h3>The Search for Dark Matter: Unveiling the Invisible Universe</h3>
+            <img src="https://i.imgur.com/gK6PTDI.gif" alt="Dark matter">
+            <p>Dark matter is a type of matter that does not emit, absorb, or reflect light, making it invisible to telescopes and other forms of traditional observation. Scientists have inferred the existence of dark matter from its....<a href="extras/DarkMatter.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>Space Tourism: Challenges and Opportunities for the Future</h3>
+            <img src="https://i.imgur.com/Zy5WWHq.gif" alt="Space-Tourism-gif">
+            <p>Explore the thrilling frontier of space tourism and discover the challenges and boundless opportunities that await in the cosmos. Uncover the remarkable prospects and hurdles that define the future of space tourism....<a href="extras/SpaceTourism.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>Spacecraft Propulsion Systems: From Chemical to Ion Thrusters</h3>
+            <img src="extras/IMG/pxlbay-propulsion.jpg" alt="Propulsion in Spacecraft">
+            <p>Spacecraft propulsion systems are critical for enabling space exploration and research. From traditional chemical rockets to more advanced ion thrusters, this topic examines the different types of propulsion systems used in spacecraft and their....<a href="extras/Propulsion.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Role of Artificial Intelligence in Space Exploration</h3>
+            <img src="extras/IMG/AI-Pixalbay.jpg" alt="Artificial Intelligence">
+            <p>Artificial intelligence (AI) is intelligence—perceiving, synthesizing, and inferring information—demonstrated by machines, as opposed to intelligence displayed by humans or by other animals....<a href="extras/AI.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Fermi Paradox: Where Are All the Extraterrestrial Civilizations?</h3>
+            <img src="https://i.imgur.com/qsQ5vuW.gif" alt="The Fermi Paradox">
+            <p>The Fermi Paradox is the apparent contradiction between the high probability of the existence of extraterrestrial civilizations....<a href="extras/FermiParadox.html">Read more</a>
+            </p>                   
+        </div>
+
+<!-- Page 5 -->
+<div class="blog-item mb-65">
+          <h3>Exploring the Mysteries of Black Holes
+</h3>
+            <img src="https://i.imgur.com/CKiltjo.jpg" alt="Black Hole">
+            <p>A black hole is a region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape it....<a href="extras/BlackHole.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item">
+            <h3>The Implications of Colonizing Mars
+</h3>
+            <img src="https://i.imgur.com/J6Jqq3a.webp" alt="Colonization of Mars">
+            <p>Mars has been a topic of fascination for astronomers and space enthusiasts for decades. With its similarities to Earth in terms of size and location in the solar system, many scientists believe that Mars could be a viable destination for human colonization in....<a href="extras/ColonizeMars.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item">
+            <h3>The Connection Between Space and Time: Einstein's Theory of Relativity</h3>
+            <img src="https://i.imgur.com/b8r492i.jpg" alt="Albert-Einstein-Young">
+            <p>Explore Einstein's groundbreaking Theory of Relativity and unravel the intricate connection between space and time. Discover how this revolutionary theory transformed our understanding of the universe and its fundamental principles.....<a href="extras/TheoryOfRelativity.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Formation and Evolution of Galaxies
+</h3>
+            <img src="https://i.imgur.com/PjQwmg0.gif" alt="Evolution of Galaxies">
+            <p>Galaxies are vast collections of stars, gas, and dust that are held together by gravity. Over billions of years, galaxies have evolved and transformed, changing in size, shape, and composition. Through observations and simulations, scientists have....<a href="extras/Galaxy_Evolution.html">Read more</a>
+            </p>                   
+        </div>
+        
+        <div class="blog-item mb-65">
+            <h3>The Challenges of Living in Microgravity on the International Space Station
+</h3>
+            <img src="https://i.imgur.com/ZRg9DKf.jpeg" alt="ISS-Microgravity">
+            <p>Living in microgravity aboard the International Space Station (ISS) is a unique and challenging experience. The station orbits the Earth at an altitude of approximately 408 kilometers, and completes one full orbit every 90 minutes. This means that astronauts onboard the ISS experience weightlessness, or a state of microgravity, as they float....<a href="extras/Challenging_ISS.html">Read more</a>
+            </p>                   
+        </div>
 
     </main>
-    
-    <div class="pagination-lg">
         
-        <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
-        
-    </div>
     
+    <div id="blogList"></div>
+
+  <div class="pagination-lg">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center" id="pagination">
+      <!-- Dynamically generate the page links using JavaScript -->
+    </ul>
+  </nav>
+</div>
+
+    
+   
     <!-- Footer -->
 <footer class="gradient-clr">
 
     <div class="footer-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms and Conditions</a>
+        <a href="extras/PrivacySE.html">Privacy Policy</a>
+        <a href="extras/TermsSE.html">Terms and Conditions</a>
     </div>
 
     <div class="copyright">
